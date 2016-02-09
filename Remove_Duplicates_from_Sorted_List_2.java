@@ -3,6 +3,7 @@ public class Solution {
 		if (head == null || head.next == null) {
 			return head;
 		}
+		
 		// dummy node
 		ListNode dummy = new ListNode(0);
 		dummy.next = head;
