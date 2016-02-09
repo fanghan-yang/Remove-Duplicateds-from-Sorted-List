@@ -8,7 +8,7 @@ public class Solution {
 			if (node.val == node.next.val) {
 				node.next = node.next.next;
 			} else {
-			  node = node.next;
+				node = node.next;
 			}
 		}
 		return head;
